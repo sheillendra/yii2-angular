@@ -1,0 +1,26 @@
+{
+	"name": "sheillendra/yii2-angular",
+	"description": "Implement Angular on Yii2",
+	"keywords": ["angular","angularjs", "sheillendra", "yii2","yii"],
+	"type": "yii2-extension",
+	"authors": [
+		{
+			"name": "Sheillendra",
+			"email": "suryana869@gmail.com"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*",
+		"bower-asset/angular": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"sheillendra\\angular\\": ""
+		}
+	},
+	"extra": {
+        	"branch-alias": {
+            		"dev-master": "1.0.x-dev"
+        	}
+    	}
+}
